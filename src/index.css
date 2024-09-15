@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Love+Light&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width:768px) {
+    nav ul{
+        flex-direction: column;
+        position: fixed;
+        top: 100px;
+        left: 0;
+        width: 100vw;
+        transform: translateY(-10000px);
+        transition: .4s;
+    }
+    nav ul.open{
+        transform: translateY(-0px);
+    }
+}
+.font-LoveLight{
+    font-family: "Love Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
