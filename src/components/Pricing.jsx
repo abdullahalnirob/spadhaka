@@ -3,7 +3,7 @@ import aboutLeafe from '../assets/title-leafe.svg'
 const Pricing = () => {
     return (
        <div className='grid justify-center items-center'>
-         <div className=' my-44 px-0 md:px-20 ' style={{ overflowX: "hidden" }}>
+         <div className=' my-36 px-0 md:px-20 ' style={{ overflowX: "hidden" }}>
             <div className='flex flex-col justify-center items-center text-center'>
                 <h2 className='font-LoveLight text-5xl text-[#41844d] '>Our Pricing</h2>
                 <h1 className='text-4xl my-8' data-aos="fade-up">Spa & Therapy Pricing</h1>
