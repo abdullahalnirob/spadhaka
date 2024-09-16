@@ -20,18 +20,18 @@ const Services = () => {
                 </p>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-3 my-5'>
-                <div className='flex flex-col items-center' data-aos="fade-up">
-                    <img src={hotStone} alt="" />
+                <div className='flex flex-col items-center'>
+                    <img src={hotStone} alt="" data-aos="zoom-in" />
                     <h1 className='my-4 text-3xl'>Hot Stone Spa</h1>
                     <h3>Start from $75</h3>
                 </div>
-                <div className='flex flex-col items-center my-10 md:my-0' data-aos="fade-up">
-                    <img src={faceScrab} alt="" />
+                <div className='flex flex-col items-center my-10 md:my-0'>
+                    <img src={faceScrab} alt="" data-aos="zoom-in" />
                     <h1 className='my-4 text-3xl'>Face Scrub</h1>
                     <h3>Start from $40</h3>
                 </div>
-                <div className='flex flex-col items-center' data-aos="fade-up">
-                    <img src={oilMessage} alt="" />
+                <div className='flex flex-col items-center'>
+                    <img src={oilMessage} alt="" data-aos="zoom-in" />
                     <h1 className='my-4 text-3xl'>Oil Massage</h1>
                     <h3>Start from $35</h3>
                 </div>
