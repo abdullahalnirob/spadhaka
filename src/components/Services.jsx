@@ -5,7 +5,8 @@ import faceScrab from '../assets/face-scrab.png'
 import oilMessage from '../assets/oil-message.png'
 const Services = () => {
     return (
-        <div className='my-20 px-10 md:px-20'>
+       <div className='flex items-center justify-center'>
+         <div className='max-w-[1800px] my-20 px-10 md:px-20'>
             <div className='flex flex-col md:flex-row items-center justify-center'>
                 <div className='flex flex-col items-center justify-center mr-10'>
                     <div className='flex items-center' data-aos="fade-right">
@@ -37,6 +38,7 @@ const Services = () => {
                 </div>
             </div>
         </div>
+       </div>
     )
 }
 

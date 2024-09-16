@@ -3,7 +3,8 @@ import aboutLeafe from '../assets/title-leafe.svg'
 import fe from '../assets/fe.png'
 const Features = () => {
     return (
-        <div style={{ overflowX: "hidden" }} className='flex  my-28 flex-col-reverse md:flex-row items-center justify-between px-10 sm:px-10 md:px-20'>
+        <div className='flex items-center justify-center'>
+            <div style={{ overflowX: "hidden" }} className='max-w-[1800px] flex  my-28 flex-col-reverse md:flex-row items-center justify-between px-10 sm:px-10 md:px-20'>
             <div>
                 <div className='flex items-center' data-aos="fade-right">
                     <h2 className='font-LoveLight text-4xl text-[#41844d]' >Why Choose Us
@@ -47,6 +48,7 @@ const Features = () => {
                 </div>
             </div>
             <img data-aos="fade-left" src={fe} alt="" />
+        </div>
         </div>
     )
 }

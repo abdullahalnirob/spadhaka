@@ -4,7 +4,8 @@ import aboutLeafe from '../assets/title-leafe.svg'
 
 const Testimonials = () => {
   return (
-    <div className='flex flex-col md:flex-row my-28 px-10 md:px-20 items-center justify-between'>
+   <div className='flex items-center justify-center'>
+     <div className='flex max-w-[1800px] flex-col md:flex-row my-28 px-10 md:px-20 items-center justify-between'>
       <img src={TestimonialImg} className="my-10" data-aos="zoom-in" />
       <div className='md:w-2/3 md:ml-10'>
         <div className='flex items-center ' data-aos="fade-right">
@@ -18,6 +19,7 @@ const Testimonials = () => {
 Spa is most popular dolor amet, consectetur adipiscing elit. Sed et pellentesque risus nunc quis uet dolor more Est amet ipsum velit are Sit convallis elit justo, same Gravida amet, magna tincidunt
       </div>
     </div>
+   </div>
   )
 }
 
