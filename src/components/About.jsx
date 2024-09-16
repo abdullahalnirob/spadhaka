@@ -4,7 +4,7 @@ import aboutLeafe from '../assets/title-leafe.svg'
 import aboutDesign from '../assets/about-design-1.svg'
 const About = () => {
     return (
-        <div className='py-20 md:py-0 flex flex-col md:flex-row justify-between items-center px-10'>
+        <div className='py-20 md:py-0 flex flex-col md:flex-row justify-between items-center px-10' style={{overflowX:"hidden"}}>
             <img src={aboutImg} alt=""  data-aos="fade-right"/>
             <div className='block px-0 md:px-16'>
                 <div className='flex items-center'>

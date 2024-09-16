@@ -12,13 +12,10 @@ const Navbar = () => {
                     <li className='text-white md:text-black px-10 py-4 md:py-0  text-2xl flex items-center'><a href="#">Packages</a></li>
                     <li className='text-white md:text-black px-10 py-4 md:py-0  text-2xl'><a href="#">Blog</a></li>
                     <li className='text-white md:text-black px-10 py-4 md:py-0  text-2xl'><a href="#">Contact</a></li>
-                    <li className='text-white md:text-black px-10 hidden md:block md:px-2 py-4 md:py-0  text-2xl'><a href="#"><i className="fa-solid fa-user"></i></a></li>
-                    <li className='text-white md:text-black px-10 hidden md:block py-4 md:py-0  text-2xl'><a href="#"><i className="fa-solid fa-cart-shopping"></i></a></li>
+
                 </ul>
                 <div className='text-white md:text-black flex md:hidden items-center list-none'>
-                    <li className='text-xl'><a href="#"><i className="fa-solid fa-user text-[#393939]"></i></a></li>
-                    <li className='text-xl px-6'><a href="#"><i className="fa-solid fa-cart-shopping text-[#393939]"></i></a></li>
-                    <li className='text-xl cursor-pointer'>
+                    <li className='text-2xl cursor-pointer'>
                         {
                             open ? <i onClick={()=>setopen(!open)} className="fa-solid fa-xmark text-[#393939]"></i> :
                             <i onClick={()=>setopen(!open)}  className="fa-solid fa-bars text-[#393939]"></i>
