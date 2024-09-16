@@ -17,17 +17,17 @@ const Pricing = () => {
                         <h1 className='text-[#41844d] text-3xl my-6'>Spa Pricing</h1>
                     </div>
                     <div className='flex flex-col items-center'>
-                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa ----------------- $75</li>
-                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa ----------------- $75</li>
-                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa ----------------- $75</li>
-                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa ----------------- $75</li>
-                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa ----------------- $75</li>
-                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa ----------------- $75</li>
-                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa ----------------- $75</li>
-                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa ----------------- $75</li>
-                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa ----------------- $75</li>
-                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa ----------------- $75</li>
-                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa ----------------- $75</li>
+                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa -------- $75</li>
+                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa -------- $75</li>
+                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa -------- $75</li>
+                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa -------- $75</li>
+                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa -------- $75</li>
+                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa -------- $75</li>
+                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa -------- $75</li>
+                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa -------- $75</li>
+                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa -------- $75</li>
+                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa -------- $75</li>
+                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa -------- $75</li>
 
                     </div>
                 </div>
@@ -37,17 +37,17 @@ const Pricing = () => {
                         <h1 className='text-[#41844d] text-3xl my-6'>Therapy Pricing</h1>
                     </div>
                     <div className='flex flex-col items-center'>
-                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa ----------------- $75</li>
-                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa ----------------- $75</li>
-                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa ----------------- $75</li>
-                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa ----------------- $75</li>
-                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa ----------------- $75</li>
-                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa ----------------- $75</li>
-                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa ----------------- $75</li>
-                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa ----------------- $75</li>
-                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa ----------------- $75</li>
-                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa ----------------- $75</li>
-                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa ----------------- $75</li>
+                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa -------- $75</li>
+                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa -------- $75</li>
+                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa -------- $75</li>
+                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa -------- $75</li>
+                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa -------- $75</li>
+                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa -------- $75</li>
+                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa -------- $75</li>
+                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa -------- $75</li>
+                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa -------- $75</li>
+                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa -------- $75</li>
+                        <li className='m-3 text-[#41844d] list-none'>Hot Stone Spa -------- $75</li>
 
                     </div>
                 </div>

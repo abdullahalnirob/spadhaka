@@ -8,6 +8,9 @@ import Therapy from './components/Therapy';
 import Features from './components/Features';
 import Services from './components/Services';
 import Pricing from './components/Pricing';
+import Testimonials from './components/Testimonials';
+import Brands from './components/Brands';
+import Footer from './components/Footer';
 const App = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 })
@@ -21,6 +24,9 @@ const App = () => {
       <Features />
       <Services />
       <Pricing />
+      <Testimonials />
+      <Brands/>
+      <Footer/>
     </div>
   )
 }
