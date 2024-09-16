@@ -1,24 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Love+Light&display=swap');
+
+* {
+    font-family: "Libre Baskerville", system-ui;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+    background-color: #fff;
+}
+button {
+    outline: none;
+}
 
 @media (max-width:768px) {
-    nav ul{
+    nav ul {
         flex-direction: column;
         position: fixed;
-        top: 100px;
+        top: 80px;
         left: 0;
         width: 100vw;
-        transform: translateY(-10000px);
-        transition: .4s;
+        transform: translateY(-500px);
+        /* transition: .7s ease-in-out; */
     }
-    nav ul.open{
+
+    nav ul.open {
         transform: translateY(-0px);
     }
 }
-.font-LoveLight{
+
+.font-LoveLight {
     font-family: "Love Light", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
